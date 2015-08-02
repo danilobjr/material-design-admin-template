@@ -1,7 +1,7 @@
 {
   "name": "Material Design Admin Template",
   "version": "1.0.0",
-  "description": "A Material Design Admin Template using sass",
+  "description": "A Material Design Admin Template using SASS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
