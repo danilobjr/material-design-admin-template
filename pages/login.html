@@ -9,41 +9,37 @@
 	<link rel="stylesheet" href="../css/style.css">
 </head>
 <body class="blue">
-	<div class="row valign-wrapper" id="login">		
-		<div class="col s12 card-panel z-depth-3">
-			<div class="row">
-				<div class="col s12">
-					<div class="logo">
-						<i class="material-icons">supervisor_account</i>
-					</div>
+	<div class="card-panel z-depth-2" id="login">
+		<div class="row">
+			<div class="col s12">
+				<span>Sign in with your account</span>
+			</div>
+		</div>
+		<form action="#">
+			<div class="row no-margin">
+				<div class="col s12 input-field">
+					<input id="email" type="text">
+					<label for="email">Email</label>
 				</div>
 			</div>
-			<form action="#">
-				<div class="row no-margin">
-					<div class="col s12 input-field">
-						<input id="email" type="text">
-						<label for="email">Email</label>
-					</div>
+			<div class="row no-margin">
+				<div class="col s12 input-field">
+					<input id="password" type="password">
+					<label for="password">Password</label>
 				</div>
-				<div class="row no-margin">
-					<div class="col s12 input-field">
-						<input id="password" type="password">
-						<label for="password">Password</label>
-					</div>
+			</div>
+			<div class="row">
+				<div class="col s12 input-field no-padding-left">
+					<input id="remember" type="checkbox">
+					<label for="remember">Keep me signed in</label>
 				</div>
-				<div class="row">
-					<div class="col s12 input-field no-padding-left">
-						<input id="remember" type="checkbox">
-						<label for="remember">Remember Me</label>
-					</div>
+			</div>
+			<div class="row no-margin">
+				<div class="col s12 input-field">
+					<button class="col s12 btn waves-effect waves-light red accent-2" type="submit">Login</button>
 				</div>
-				<div class="row">
-					<div class="col s12 input-field">
-						<button class="col s12 btn waves-effect waves-light red accent-2" type="submit">Login</button>
-					</div>
-				</div>
-			</form>
-		</div>
+			</div>
+		</form>
 	</div>
 	
 	<script src="../bower_components/jquery/dist/jquery.min.js"></script>

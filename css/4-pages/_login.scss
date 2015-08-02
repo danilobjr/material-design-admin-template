@@ -1,8 +1,5 @@
 #login {
-	height: 100%;
-	
-	.card-panel {
-		width: 300px;
-		margin: auto;
-	}
+	width: 300px;
+	@include padding(25px null 30px null);
+	@include margin(120px auto);
 }

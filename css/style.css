@@ -8462,7 +8462,7 @@ html, body {
   margin: 0 !important; }
 
 #login {
-  height: 100%; }
-  #login .card-panel {
-    width: 300px;
-    margin: auto; }
+  width: 300px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  margin: 120px auto; }
