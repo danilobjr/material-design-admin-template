@@ -1,0 +1,17 @@
+.nav-wrapper {
+	.page-title h5 {
+		@include margin(19px null null 19px);
+	}
+	
+	li.no-hover:hover {
+		background-color: transparent;
+	}
+	
+	[data-activates="side-nav"] {
+	    margin-left: 18px;
+		
+		i {
+			line-height: 36px;
+		}
+	} 
+}
